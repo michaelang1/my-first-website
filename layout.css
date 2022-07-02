@@ -1,0 +1,266 @@
+body {
+    background-color: #FBF5F0;
+}
+
+.navigation {
+    max-width: 1350px;
+    margin: 15px auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logoText > a {
+    display: inline-block;      /* allows margin top and bottom to work*/
+    font-family: 'Freckle Face', cursive;
+    font-size: 70px;
+    color: #2C334A;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.navigationButtons > a {
+    display: inline-block;     /* allows margin top and bottom to work*/
+    border-radius: 25px;
+    font-size: 17px;
+    color: #2C334A;
+    background-color: #A8C5B7;
+    text-decoration: none;
+    Padding: 3px 13px;
+    margin: 10px;
+}
+
+.navigationButtons > a:hover {
+    background-color: #a8c5b7ba;
+    Padding: 6px 13px;
+}
+
+body,
+fieldset input,
+fieldset textarea {
+    font-family: 'Istok Web', sans-serif;
+    color: #3A1D05;
+    font-size: 1em;
+}
+
+em {
+    display: inline-block;      /* allows margin top and bottom to work*/
+    margin-top: 3px;
+    font-size: 25px;
+}
+
+p a,
+.photoGallery a,
+li a {
+    color: rgb(16, 106, 145);
+    font-style: italic;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Freckle Face', cursive, sans-serif;
+    font-size: 2.5em;
+    color: #3A1D05;
+    margin-bottom: 20px;
+}
+
+.social {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.social > a {
+    text-decoration: none;
+    font-size: 20px;
+    color:#2C334A;
+    margin: 5px;
+}
+
+.social > a:hover {
+    opacity: 0.75;
+    color:#074425
+}
+
+.footer {
+    text-align: center;
+    text-decoration: none;
+    color: #2C334A;
+    font-size: 13px;
+}
+
+.profile {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profilePic > img {
+    max-width: 440px;
+    width: 100%;
+    margin: 0 15px;
+}
+
+.profileText {
+    order: 2;
+    max-width: 360px;
+    margin: 0 15px 22px;
+    text-align: justify;
+}
+
+header {
+    text-align: center;
+}
+
+.Text {
+    max-width: 900px;
+    margin: auto;
+    text-align: justify;
+}
+
+img[src="images/c_wally.jpg"] {
+    display: block;
+    max-width: 900px;
+    width: 100%;
+    margin: 30px auto;
+}
+
+.portraitGallery,
+.photoGallery,
+.artGallery {
+    max-width: 1000px;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    column-gap: 8px;
+}
+
+.portraitGallery img,
+.artGallery img {
+    width: 320px;
+    height: 500px;
+    object-fit: cover;
+}
+
+/* I still don't understand how nth-child works */
+.portraitGallery :nth-child(1) { order: 3; }
+.portraitGallery :nth-child(2) { order: 5; }
+.portraitGallery :nth-child(3) { order: 1; }
+.portraitGallery :nth-child(4) { order: 4; }
+.portraitGallery :nth-child(5) { order: 6; }
+.portraitGallery :nth-child(6) { order: 3; }
+
+.photoGallery {
+    row-gap: 32px;
+}
+
+.photoGallery img {
+    padding-bottom: 7px;
+}
+
+.photoGallery img {
+    width: 320px;
+    height: 390px;
+    object-fit: cover;
+}
+
+li {
+    line-height: 2em;
+}
+
+li a span {
+    font-style: normal;
+}
+
+.artGallery img {
+    width: 1000px;
+    height: 650px;
+    object-fit: cover;
+}
+
+iframe {
+    display: block;
+    max-width: 700px;
+    margin: 35px auto;
+}
+
+fieldset {
+    border: 3px dotted #2C334A;
+    border-radius: 10px;
+    max-width: 380px;
+    margin: 30px auto;
+    padding: 22px 30px;
+    background-color: #E3EBE6;
+}
+
+fieldset > div {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset > div > input {
+    width: 300px;
+    height: 25px;
+    margin: 0px auto;
+}
+
+fieldset > div > label {
+    width: 300px;
+    height: 25px;
+    margin: 20px auto 0px;
+}
+
+fieldset > div > p {
+    width: 300px;
+    height: 25px;
+    margin: 32px auto 13px;
+}
+
+.radios label {
+    margin: 0 4px;
+}
+
+.radios div {
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.radios {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0px auto 20px;
+}
+
+fieldset > p {
+    text-align: justify;
+    margin: 35px auto 10px;
+    width: 280px;
+}
+
+fieldset textarea {
+    width: 300px;
+    height: 120px;
+    margin: 10px auto;
+}
+
+button {
+    display: block;
+    width: 120px;
+    height: 50px;
+    margin: 15px auto;
+    border-radius: 25px;
+    font-size: 20px;
+    color: #2C334A;
+    background-color: #A8C5B7;
+    border-color: rgba(255, 255, 255, 0);
+}
