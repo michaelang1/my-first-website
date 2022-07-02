@@ -196,7 +196,7 @@ fieldset {
     border-radius: 10px;
     max-width: 380px;
     margin: 30px auto;
-    padding: 22px 30px;
+    padding: 17px 30px 24px;
     background-color: #E3EBE6;
 }
 
@@ -220,7 +220,7 @@ fieldset > div > label {
 fieldset > div > p {
     width: 300px;
     height: 25px;
-    margin: 32px auto 13px;
+    margin: 30px auto 13px;
 }
 
 .radios label {
@@ -238,7 +238,7 @@ fieldset > div > p {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    margin: 0px auto 20px;
+    margin: 0px auto 8px;
 }
 
 fieldset > p {
@@ -250,7 +250,7 @@ fieldset > p {
 fieldset textarea {
     width: 300px;
     height: 120px;
-    margin: 10px auto;
+    margin: 5px auto;
 }
 
 button {
