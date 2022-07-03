@@ -264,3 +264,17 @@ button {
     background-color: #A8C5B7;
     border-color: rgba(255, 255, 255, 0);
 }
+
+.thanks_message {
+    text-align: justify;;
+    font-size: 1.3em;
+    line-height: 2em;
+    background-color: #E3EBE6;
+    font-style: italic;
+    border: 3px dotted #2C334A;
+    border-radius: 10px;
+    max-width: 380px;
+    margin: 30px auto 45px;
+    padding: 17px 50px 24px;
+
+}
