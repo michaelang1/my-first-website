@@ -34,7 +34,6 @@ body {
 
 .navigationButtons > a:hover {
     background-color: #a8c5b7ba;
-    Padding: 6px 13px;
 }
 
 body,
@@ -120,6 +119,10 @@ header {
     max-width: 900px;
     margin: auto;
     text-align: justify;
+}
+
+img {
+    border-radius: 18px;
 }
 
 img[src="images/c_wally.jpg"] {
